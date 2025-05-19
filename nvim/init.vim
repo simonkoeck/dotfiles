@@ -6,15 +6,10 @@
 " |_|_| |_|_|\__(_)_/ |_|_| |_| |_|
 "
 
-if exists('g:vscode')
-   " Load vscode config
-   source $HOME/.config/nvim/vscode.vim
-else
-   " Load nvim config
-   source $HOME/.config/nvim/plugins.vim
-   source $HOME/.config/nvim/options.vim
-   source $HOME/.config/nvim/mappings.vim
-   source $HOME/.config/nvim/vars.vim
-   source $HOME/.config/nvim/functions.vim
-   source $HOME/.config/nvim/other.vim
-endif
+" Load nvim config
+source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/options.vim
+source $HOME/.config/nvim/mappings.vim
+source $HOME/.config/nvim/vars.vim
+source $HOME/.config/nvim/functions.vim
+source $HOME/.config/nvim/other.vim
