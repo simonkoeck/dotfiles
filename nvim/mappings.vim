@@ -54,6 +54,7 @@ nnoremap <silent> <S-k> :call CocAction('doHover')<CR>
 nnoremap <silent> <leader>bf <cmd>Telescope buffers<CR>
 nnoremap <silent> <leader>bb <cmd>Telescope buffers<CR>
 nnoremap <silent> <leader>bd :BufferClose<CR>
+nnoremap <silent> <leader>bc :bufdo bd<CR><CR>
 nnoremap <silent> <leader>ba :call DeleteInactiveBufs()<CR>
 nnoremap <silent> <leader>bl :BufferPrevious<CR>
 nnoremap <silent> <leader>bn :BufferNext<cr>
