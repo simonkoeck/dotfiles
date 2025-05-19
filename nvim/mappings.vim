@@ -41,7 +41,7 @@ nnoremap <silent> <leader>fg <cmd>Telescope live_grep<CR>
 nnoremap <silent> <leader>fh <cmd>Telescope help_tags<CR>
 nnoremap <silent> <leader>fj <cmd>Telescope buffers<CR>
 nnoremap <silent> <leader>fk <cmd>Telescope file_browser<CR>
-nnoremap <silent> <leader>gg :G<CR>
+nnoremap <silent> <leader>gg :tab G<CR>
 nnoremap <silent> <leader>gc :Telescope conventional_commits<CR>
 nnoremap <silent> <leader>ga :G add .<CR>
 nnoremap <silent> <leader>gp :G push<CR>

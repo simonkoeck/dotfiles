@@ -7,7 +7,7 @@ let g:neoterm_autoinsert=0
 let g:neoterm_autojump=1
 let g:neoterm_autoscroll=1
 
-let g:user_emmet_expandabbr_key='<S-F4>'
+let g:user_emmet_expandabbr_key='<C-q>'
 
 let g:system_copy_silent = 1
 
