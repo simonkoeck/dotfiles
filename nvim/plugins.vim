@@ -38,5 +38,6 @@ Plug 'simeng/vim-imba'
 Plug 'augmentcode/augment.vim'
 Plug 'lambdalisue/vim-suda'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+Plug 'karb94/neoscroll.nvim'
 
 call plug#end()
