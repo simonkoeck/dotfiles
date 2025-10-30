@@ -39,5 +39,6 @@ Plug 'augmentcode/augment.vim'
 Plug 'lambdalisue/vim-suda'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'karb94/neoscroll.nvim'
+Plug 'sphamba/smear-cursor.nvim'
 
 call plug#end()
