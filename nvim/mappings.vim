@@ -44,6 +44,7 @@ nnoremap <silent> <leader>fk <cmd>Telescope file_browser<CR>
 nnoremap <silent> <leader>gg :tab G<CR>
 nnoremap <silent> <leader>gb :Git blame<CR>
 nnoremap <silent> <leader>gc :Telescope conventional_commits<CR>
+nnoremap <silent> <leader>ge :Telescope gitmoji<CR>
 nnoremap <silent> <leader>ga :G add .<CR>
 nnoremap <silent> <leader>gp :G push<CR>
 nnoremap <silent> <leader>y :!xdg-open %<CR><CR>

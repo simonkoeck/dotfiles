@@ -42,10 +42,10 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 command = tmux
-theme = GruvboxDark
+theme = Gruvbox Dark 
 
 # window-padding-x = 15
-# window-padding-y = 15
-fullscreen = true
-window-padding-balance=true
-# window-padding-color=extend
+# window-padding-y = 40
+# fullscreen = true
+# window-padding-balance=true
+window-padding-color=extend

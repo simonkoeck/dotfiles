@@ -29,6 +29,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'stevearc/oil.nvim'
 Plug 'olacin/telescope-cc.nvim'
+Plug 'olacin/telescope-gitmoji.nvim'
 Plug 'supermaven-inc/supermaven-nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'lewis6991/gitsigns.nvim'
@@ -39,6 +40,9 @@ Plug 'augmentcode/augment.vim'
 Plug 'lambdalisue/vim-suda'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'karb94/neoscroll.nvim'
-Plug 'sphamba/smear-cursor.nvim'
+Plug 'stevearc/conform.nvim'
+Plug 'wakatime/vim-wakatime'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'greggh/claude-code.nvim'
 
 call plug#end()
