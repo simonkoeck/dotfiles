@@ -38,11 +38,10 @@ Plug 'echasnovski/mini.move'
 Plug 'simeng/vim-imba'
 Plug 'augmentcode/augment.vim'
 Plug 'lambdalisue/vim-suda'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'karb94/neoscroll.nvim'
 Plug 'stevearc/conform.nvim'
 Plug 'wakatime/vim-wakatime'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'greggh/claude-code.nvim'
+Plug 'OXY2DEV/markview.nvim'
 
 call plug#end()
